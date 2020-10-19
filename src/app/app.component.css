@@ -1,11 +1,12 @@
 .clock_box {
-  border: 5px solid black;
+  border: 3px solid black;
   border-radius: 50%;
   position: relative;
-  height: 300px;
-  width: 300px;
+  height: 200px;
+  width: 200px;
   cursor: move;
-  background-color: #ff9204;
+  background-color: transparent;
+  /*opacity: 0;*/
   user-select: none;
 }
 
@@ -27,13 +28,12 @@
   width: 20px;
   height: 100%;
   top: 0;
-  left: 140px;
-
+  left: 87px;
 }
 
 .dial span {
   width: 3px;
-  height: 18px;
+  height: 10px;
   background: black;
   display: inline-block;
   vertical-align: top;
@@ -55,24 +55,24 @@
 }
 
 .H span {
-  margin-top: 80px;
-  width: 6px;
-  height: 80px;
+  margin-top: 65px;
+  width: 3px;
+  height: 43px;
   background: black;
   display: inline-block;
 }
 
 .M span {
-  margin-top: 60px;
-  height: 100px;
-  width: 6px;
+  margin-top: 52px;
+  height: 54px;
+  width: 3px;
   background: black;
   display: inline-block;
 }
 
 .S span {
   margin-top: 45px;
-  height: 120px;
+  height: 70px;
   width: 3px;
   background: grey;
   display: inline-block;
@@ -81,13 +81,13 @@
 
 .S span:after {
   content: '';
-  width: 10px;
-  height: 10px;
+  width: 7px;
+  height: 7px;
   border-radius: 50%;
   background: grey;
   position: absolute;
-  bottom: 10px;
-  left: -3.5px;
+  bottom: 7px;
+  left: -2.3px;
 
 }
 
@@ -107,12 +107,13 @@
 }
 
 .icon {
-  border: 1px solid black;
-  position: relative;
-  height: 300px;
-  width: 300px;
+  /*border: 1px solid black;*/
+  position: absolute;
+  height: 200px;
+  width: 200px;
   cursor: move;
-  background-color: #ff9204;
+  /*background-color: #ff9204;*/
+  /*opacity: 0;*/
   user-select: none;
 }
 

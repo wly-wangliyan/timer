@@ -32,17 +32,22 @@
 <!--</div>-->
 <!--<div>{{a.b?.c ? 'a':'b'}}</div>-->
 <div id="range" (mousemove)="mousemoveEvent($event)" (mouseup)="mouseupEvent($event)" #range>
-  <!--  <button routerLink="/demos">tiaozhuan</button>-->
-  <!--  <button (click)="changeColor()">change</button>-->
-  <!--  <div #pageDiv>666666666</div>-->
-  <!--  <router-outlet></router-outlet>-->
-  <!--  <app-heroes (displayStateChanged)="displayStateChanged($event)"></app-heroes>-->
+    <button routerLink="/demos">tiaozhuan</button>
+    <button (click)="changeColor()">change</button>
+    <div #pageDiv>666666666</div>
+    <router-outlet></router-outlet>
+<!--    <app-heroes (displayStateChanged)="displayStateChanged($event)"></app-heroes>-->
   <!--<div id="div1" (drop)="drop($event)" (dragover)="allowDrop($event)"></div>-->
   <div class="icon" (mousedown)="mousedownEvent($event)">
     <div class="clock_box" #clock_box>
       <div class="clock_dial" #clock_dial>
-        <div class="dial"><span></span><br><b>12</b></div>
-        <div class="dial"><span></span><br>
+        <div class="dial">
+          <span></span>
+          <br>
+          <b>12</b>
+        </div>
+        <div class="dial"><span></span>
+          <br>
           <div>1</div>
         </div>
         <div class="dial"><span></span><br>
