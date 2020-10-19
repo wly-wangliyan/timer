@@ -1,0 +1,119 @@
+.clock_box {
+  border: 5px solid black;
+  border-radius: 50%;
+  position: relative;
+  height: 300px;
+  width: 300px;
+  cursor: move;
+  background-color: #ff9204;
+  user-select: none;
+}
+
+.clock_dial {
+  font-size: 18px;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  -moz-transform-origin: center center;
+  -webkit-transform-origin: center center;
+  -o-transform-origin: center center;
+  transform-origin: center center;
+  text-align: center;
+
+}
+
+.dial {
+  position: absolute;
+  width: 20px;
+  height: 100%;
+  top: 0;
+  left: 140px;
+
+}
+
+.dial span {
+  width: 3px;
+  height: 18px;
+  background: black;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.dial b {
+  display: inline-block;
+}
+
+.H, .M, .S {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  left: 50%;
+  -webkit-transform: translate3d(-50%, 0, 0);
+  -ms-transform: translate3d(-50%, 0, 0);
+  -o-transform: translate3d(-50%, 0, 0);
+  text-align: center;
+}
+
+.H span {
+  margin-top: 80px;
+  width: 6px;
+  height: 80px;
+  background: black;
+  display: inline-block;
+}
+
+.M span {
+  margin-top: 60px;
+  height: 100px;
+  width: 6px;
+  background: black;
+  display: inline-block;
+}
+
+.S span {
+  margin-top: 45px;
+  height: 120px;
+  width: 3px;
+  background: grey;
+  display: inline-block;
+  position: relative;
+}
+
+.S span:after {
+  content: '';
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: grey;
+  position: absolute;
+  bottom: 10px;
+  left: -3.5px;
+
+}
+
+#div1 {
+  width: 500px;
+  height: 300px;
+  border: 1px solid black;
+}
+
+#range {
+  /*position: relative;*/
+  width: 100%;
+  height: 100%;
+  /*margin: 10px;*/
+  /*background-color: rgb(62, 165, 165);*/
+  border: 1px solid rgb(62, 165, 165);
+}
+
+.icon {
+  border: 1px solid black;
+  position: relative;
+  height: 300px;
+  width: 300px;
+  cursor: move;
+  background-color: #ff9204;
+  user-select: none;
+}
+
+

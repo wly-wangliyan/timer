@@ -1,0 +1,10 @@
+div.container div.row div {
+  margin: 5px 0px;
+
+}
+
+div.container div.row div {
+  background-color: rgb(247, 236, 236);
+  border: 1px solid gray;
+  text-align: center;
+}
